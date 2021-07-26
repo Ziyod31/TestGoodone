@@ -11,8 +11,8 @@
                     <tr>
                         <th>Id</th>
                         <th>Mahsulot nomi</th>
-                        <th>Xomashyo nomi</th>
-                        <th>Xomashyo Soni</th>
+                        <th>Xomashyo</th>
+                        <th>Soni</th>
                     </tr>
                 </thead>
                 <tbody>

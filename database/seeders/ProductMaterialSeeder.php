@@ -41,7 +41,7 @@ class ProductMaterialSeeder extends Seeder
     			'quantity' => '15',
     		],
     		[
-    			'product_id' => '1',
+    			'product_id' => '2',
     			'material_id' => '4',
     			'quantity' => '1',
     		],
