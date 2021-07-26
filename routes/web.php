@@ -15,5 +15,5 @@ use App\Http\Controllers\ProductController;
 */
 
 Route::get('/', [WarehouseController::class, 'index']);
-Route::get('/{id}', [ProductController::class, 'show']);
+Route::get('/calculate', [ProductController::class, 'show']);
 

@@ -13,8 +13,11 @@
                         <th>Mahsulot nomi</th>
                         <th>Xomashyo nomi</th>
                         <th>Xomashyo Soni</th>
+                        <th>Omborxona №</th>
+                        <th>Xomashyo narxi</th>
                     </tr>
                 </thead>
+                @foreach($products as $product)
                 <tbody>
                     <td>{{$product->id}}</td>
                     <td>{{$product->name}}</td>
@@ -23,13 +26,17 @@
                         {{$material->name}} <br>
                         @endforeach
                     </td>
-
                     <td>
-                        @foreach($product->materials as $material)
-                        {{ $material->pivot->quantity }} <br>
-                        @endforeach
+                        количество выбранных товаров со скалада
+                    </td>
+                    <td>
+                        номер склада
+                    </td>
+                    <td>
+                        Цена
                     </td>
                 </tbody>
+                @endforeach
             </table>
         </div>
     </div>
